@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>Alex' Superhero Movie Finder </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script defer type="text/javascript" src="movie_data.js"></script>
+        <script defer type="text/javascript" src="script.js"></script>
+      </head>
+
+<body>
+
+    <header>Alex' Superhero<br>Movie Finder</header>
+
+    <nav class = "filter_menu">
+        <input id = "all_btn" type = "radio" name="filter_btn" value="new_btn" checked="checked"> All<br>Movies
+        <input id = "new_btn" type = "radio" name="filter_btn" value="new_btn"> New<br>Releases
+        <input id = "avenger_btn" type = "radio" name="filter_btn" value="avenger_btn"> Avenger<br>Movies
+        <input id = "xmen_btn" type = "radio" name="filter_btn" value="xmen_btn"> X-Men<br>Movies
+        <input id = "batman_btn" type = "radio" name="filter_btn" value="batman_btn"> Batman<br>Movies
+        <input id = "princess_btn" type = "radio" name="filter_btn" value="princess_btn"> Princess<br>Movies
+    </nav>
+
+    <main class = "movie_display">
+        <ul id = "movie_grid"></ul>
+    </main>
+
+    <footer>
+        <p class = "page_footer">- This page was made by Alexander Luttmer -</p>
+    </footer>
+
+</body>
+</html>

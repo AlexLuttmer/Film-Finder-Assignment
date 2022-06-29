@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'StarGuard';
+    src: url('fonts/StarGuard.woff2') format('woff2'),
+         url('fonts/StarGuard.woff') format('woff'),
+         url('fonts/StarGuard.ttf') format('truetype');
+        
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'StarGuard';
+}
+
+header {
+    margin: 25px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
+
+nav {
+    text-align: center;
+    margin: 25px 50px 25px 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+}
+
+input {
+    margin: 0 5px 0 20px;
+}
+
+.filter_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#movie_grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4 , 17vw);
+    grid-template-rows: repeat(4 , auto);
+    column-gap: 75px;
+    row-gap: 50px;
+
+}
+
+.movie_grid_square {
+    text-align: center;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.movie_title {
+    text-decoration: underline;
+}
+
+.movie_poster {
+    border: 6px solid white;
+    border-radius: 5px;
+    width: 175px;
+    height: 285px;
+}
+
+.page_footer {
+    font-size: 9px;
+    font-style: italic;
+}
